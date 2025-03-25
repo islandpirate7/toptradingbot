@@ -16,11 +16,11 @@ strategy:
   
   # Percentage-based position sizing
   position_sizing:
-    base_position_pct: 5         # Base position size as percentage of initial capital
+    base_position_pct: 10         # Base position size as percentage of initial capital
     
     # Tiered position sizing
     tier_multipliers:
-      'Tier 1 (≥0.9)': 3.0
+      'Tier 1 (≥0.9)': 4.0
       'Tier 2 (0.8-0.9)': 1.5
       'Below Threshold (<0.8)': 0.0
     
